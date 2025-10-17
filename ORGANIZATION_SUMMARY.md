@@ -2,7 +2,7 @@
 
 ## 🎯 **Successfully Organized into Focused Folders**
 
-The Go learning resource has been reorganized into 5 focused folders, each containing relevant examples and documentation.
+The Go learning resource has been reorganized into 6 focused folders, each containing relevant examples and documentation.
 
 ## 📁 **Folder Structure**
 
@@ -20,6 +20,9 @@ go-learning/
 │   ├── README.md
 │   ├── go_pointers.go
 │   └── go_pointers_simple.go
+├── functions/                   # Function concepts
+│   ├── README.md
+│   └── go_functions.go
 ├── advanced-concepts/           # Modern Go features
 │   ├── README.md
 │   ├── go_other_concepts.go
@@ -57,7 +60,7 @@ go-learning/
 - Clean separation of concerns
 
 ### **4. Progressive Learning**
-- Start with primitives → structs → pointers → advanced → memory model
+- Start with primitives → structs → pointers → functions → advanced → memory model
 - Each folder builds on previous knowledge
 - Clear learning path
 
@@ -81,13 +84,19 @@ cd ../pointers
 go run go_pointers_simple.go
 ```
 
-### **4. Explore Advanced Concepts**
+### **4. Master Functions**
+```bash
+cd ../functions
+go run go_functions.go
+```
+
+### **5. Explore Advanced Concepts**
 ```bash
 cd ../advanced-concepts
 go run go_other_concepts_simple.go
 ```
 
-### **5. Deep Dive into Memory Model**
+### **6. Deep Dive into Memory Model**
 ```bash
 cd ../memory-model
 go run memory_model_overview.go
@@ -112,6 +121,14 @@ go run escape_analysis_examples.go
 - Pointer operations
 - Pointers with functions and structs
 - Pointer safety and best practices
+
+### **⚡ functions/**
+- Function declaration and calling
+- Multiple return values
+- Variadic functions
+- Closures and anonymous functions
+- Higher-order functions
+- Recursion and defer statements
 
 ### **🚀 advanced-concepts/**
 - Interfaces and methods
